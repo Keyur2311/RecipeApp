@@ -7,10 +7,7 @@ function RecipeItem(props) {
 
     return (
         <div className='my-3' >
-            <div className="card" id="mainBox" style={{
-                // boxShadow: "10px 10px 5px 0px rgba(209,200,179,1)",
-
-            }}>
+            <div className="card" id="mainBox">
                 <div style={{
                     dispklay: 'flex',
                     justifyContent: 'flex-end',

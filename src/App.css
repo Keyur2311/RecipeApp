@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: rgb(223, 223, 223);
+}
+
+#mainBox {
+  background-color: rgb(255, 255, 255);
+}
+
+p {
+  margin: 10px;
+}

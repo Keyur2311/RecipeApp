@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Recipe from './components/Recipe';
 
 function App() {
+
+  const APP_ID = "794b6367";
+  const API_KEY = "8a0e0f3d57113c03cfbd06f8fa4ed9fe";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Recipe APP_ID={APP_ID} API_KEY={API_KEY} />
+    </>
   );
 }
 

@@ -77,7 +77,7 @@ function Recipe(props) {
                 <div className="row" style={{ margin: "0px" }}>
                     {
                         data && data.map((element, index) => {
-                            return <div className="col col-sm-12 col-xs-12 col-lg-4 col-md-4 my-2" key={element.recipe.ingredientLines}>
+                            return <div className="col col-12 col-sm-12 col-xs-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 my-2" key={element.recipe.ingredientLines}>
                                 < RecipeItem imageUrl={element.recipe.image} url={element.recipe.url} title={element.recipe.label} source={element.recipe.source} calories={element.recipe.calories} mealType={element.recipe.mealType} dishType={element.recipe.dishType} weight={element.recipe.totalWeight} ingredients={element.recipe.ingredientLines} index={index} />
                             </div>
                         })

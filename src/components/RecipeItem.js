@@ -41,7 +41,7 @@ function RecipeItem(props) {
                                     <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div className="modal-body">
-                                    <p style={{ fontSize: "18px" }}><b>Steps and Ingredients</b></p>
+                                    <p style={{ fontSize: "20px" }}><b>Steps and Ingredients</b></p>
                                     {
                                         <div className="d-flex row flex-column" key={imageUrl}>
                                             {
